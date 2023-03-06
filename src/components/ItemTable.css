@@ -1,0 +1,28 @@
+.list table {
+    border-collapse: collapse;
+}
+.list tr, th {
+    
+}
+.list td{
+    border: solid 1px black;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px !important;
+}
+.list {
+    background-color: var(--bgA);
+    overflow-x: scroll;
+    padding: 0.5em;
+    width: 98%;
+    margin: 10px auto;
+}
+.list::-webkit-scrollbar {
+    background-color: transparent;
+    height: 5px;
+}
+.list::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    border-radius: 10px;
+}
